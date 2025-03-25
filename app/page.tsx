@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { BarcodeIcon as Jar, Leaf, MapPin, ShoppingBag, Heart, Shield, Sparkles } from "lucide-react"
+import { Leaf, MapPin, ShoppingBag, Heart, Shield, Sparkles } from "lucide-react"
 
 export default function Home() {
   return (
@@ -226,7 +226,7 @@ export default function Home() {
               <div className="bg-background rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
                 <div className="h-48 bg-gradient-to-r from-amber-200 to-amber-300 relative">
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <Jar className="h-20 w-20 text-primary" />
+                    {/* <Jar className="h-20 w-20 text-primary" /> */}
                   </div>
                 </div>
                 <div className="p-6">
@@ -260,7 +260,7 @@ export default function Home() {
               <div className="bg-background rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
                 <div className="h-48 bg-gradient-to-r from-amber-700 to-amber-800 relative">
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <Jar className="h-20 w-20 text-white" />
+                    {/* <Jar className="h-20 w-20 text-white" /> */}
                   </div>
                 </div>
                 <div className="p-6">
@@ -294,8 +294,7 @@ export default function Home() {
               <div className="bg-background rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
                 <div className="h-48 bg-gradient-to-r from-amber-400 to-amber-500 relative">
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <Jar className="h-20 w-20 text-primary" />
-                  </div>
+/                  </div>
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-primary mb-2">Stingless Bee Raw Honey</h3>
@@ -328,7 +327,7 @@ export default function Home() {
               <div className="bg-background rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
                 <div className="h-48 bg-gradient-to-r from-green-600/20 to-amber-300 relative">
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <Jar className="h-20 w-20 text-primary" />
+                    {/* <Jar className="h-20 w-20 text-primary" /> */}
                   </div>
                 </div>
                 <div className="p-6">
@@ -362,7 +361,7 @@ export default function Home() {
               <div className="bg-background rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
                 <div className="h-48 bg-gradient-to-r from-blue-500/20 to-amber-300 relative">
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <Jar className="h-20 w-20 text-primary" />
+                    {/* <Jar className="h-20 w-20 text-primary" /> */}
                   </div>
                 </div>
                 <div className="p-6">
