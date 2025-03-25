@@ -9,7 +9,7 @@ export default function Home() {
         <div className="container flex h-20 items-center justify-between">
           <div className="flex items-center gap-2">
             <Image
-              src="/logo.png"
+              src="./logo.png"
               alt="Richoose Natural Honey Logo - Premium Natural Honey from Kerala"
               width={60}
               height={60}
@@ -664,7 +664,7 @@ export default function Home() {
             <div className="flex flex-col">
               <div className="flex items-center gap-2 mb-4">
                 <Image
-                  src="/logo-white.png"
+                  src="./logo-white.png"
                   alt="Richoose Natural Honey Logo"
                   width={50}
                   height={50}
