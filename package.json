@@ -11,7 +11,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export",
     "build:ci": "npm install --legacy-peer-deps && npm run build"
   },
   "dependencies": {
