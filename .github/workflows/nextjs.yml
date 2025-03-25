@@ -4,6 +4,11 @@ on:
   push:
     branches: ["main"]
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -22,23 +27,14 @@ jobs:
         env:
           NEXT_PUBLIC_BASE_PATH: '/Demo'
           NODE_OPTIONS: '--max_old_space_size=4096'
-      
-      - name: Export static files
-        run: npm run export
-      
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./out # Next.js automatically outputs static files here
 
   deploy:
     needs: build
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
